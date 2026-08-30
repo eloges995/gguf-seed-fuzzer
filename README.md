@@ -35,3 +35,10 @@ pytest test_create_mini_seed.py -v
 docker build -t gguf-seed-fuzzer .
 docker run gguf-seed-fuzzer
 ```
+
+## Running tests with Docker
+
+```bash
+docker build -t gguf-seed-fuzzer .
+docker run gguf-seed-fuzzer
+```
