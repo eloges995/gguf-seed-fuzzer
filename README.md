@@ -28,3 +28,10 @@ pip install -r requirements.txt
 python create_mini_seed.py      # generates mini_seed.gguf
 pytest test_create_mini_seed.py -v
 \```
+
+## Running tests with Docker
+
+```bash
+docker build -t gguf-seed-fuzzer .
+docker run gguf-seed-fuzzer
+```
